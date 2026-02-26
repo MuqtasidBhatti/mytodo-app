@@ -97,7 +97,7 @@ const Todos = () => {
                             {todos.map(todo => (
                                 <li
                                     key={todo.id}
-                                    className="flex flex-col sm:flex-row sm-item-center sm:justify-between gap-4 bg-white/10 border border-white/20 p-5 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300">
+                                    className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 bg-white/10 border border-white/20 p-5 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300">
 
                                     <div className="flex items-start gap-4 flex-1">
                                         <input
@@ -112,11 +112,11 @@ const Todos = () => {
                                                 type='text'
                                                 value={editInput}
                                                 onChange={(e) => setEditInput(e.target.value)}
-                                                className="flex-1 px-4 py-2 rounded-lg bg-white/10 border border-white/20 text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
+                                                className="flex-1 w-full min-w-0 px-4 py-2 rounded-lg bg-white/10 border border-white/20 text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
                                             />
                                         ) : (
                                             <span
-                                                className={`flex-1 break-word text-lg ${todo.completed ? "line-through opacity-60" : ""
+                                                className={`flex-1 break-words text-lg ${todo.completed ? "line-through opacity-60" : ""
                                                     }`}>
                                                 {todo.text}
                                             </span>
