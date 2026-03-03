@@ -1,4 +1,4 @@
-# 📝 mytodo-app
+# 📝 React Todo App with Authentication
 
 A fully functional Todo List application built using React.  
 This project implements authentication, global state management using Context API, and persistent data storage using LocalStorage.
