@@ -1,16 +1,99 @@
-# React + Vite
+# 📝 Todo App with Authentication
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional Todo List application built using React.  
+This project implements authentication, global state management using Context API, and persistent data storage using LocalStorage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+🔗 https://mytodo-app-six.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 User Login & Logout
+- 🛡 Protected Routes
+- ➕ Add Todos
+- ✏ Edit Todos
+- ❌ Delete Todos
+- 💾 Persistent Data using LocalStorage
+- 📱 Fully Responsive UI
+- 🌍 Global State Management with Context API
+
+---
+
+## 🛠 Tech Stack
+
+- React.js
+- Context API
+- LocalStorage
+- Vite
+- CSS / Tailwind (whichever you used)
+- Deployed on Vercel
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ ├── context/
+ ├── pages/
+ ├── assets/
+ ├── App.jsx
+ └── main.jsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/mytodo-app.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Screenshots
+
+(Add 2–3 screenshots here)
+
+Example:
+
+![Login Page](./public/screenshots/login.png)
+![Dashboard](./public/screenshots/dashboard.png)
+
+---
+
+## 🎯 What I Learned
+
+- Managing global state using Context API
+- Implementing authentication flow in React
+- Protecting routes conditionally
+- Handling browser storage safely
+- Structuring scalable React applications
+
+---
+
+## 👨‍💻 Author
+
+Muqtasid Bhatti  
+Frontend Developer  
+Open to Opportunities 🚀

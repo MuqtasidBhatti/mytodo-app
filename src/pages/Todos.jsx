@@ -99,7 +99,7 @@ const Todos = () => {
                                     key={todo.id}
                                     className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 bg-white/10 border border-white/20 p-5 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300">
 
-                                    <div className="flex items-start gap-4 flex-1">
+                                    <div className="flex items-start gap-4 flex-1 min-w-0">
                                         <input
                                             type='checkbox'
                                             checked={todo.completed}
@@ -116,7 +116,7 @@ const Todos = () => {
                                             />
                                         ) : (
                                             <span
-                                                className={`flex-1 break-words text-lg ${todo.completed ? "line-through opacity-60" : ""
+                                                className={`flex-1 break-all text-lg line-clamp-2 ${todo.completed ? "line-through opacity-60" : ""
                                                     }`}>
                                                 {todo.text}
                                             </span>
