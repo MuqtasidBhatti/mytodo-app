@@ -1,4 +1,4 @@
-# 📝 Todo App with Authentication
+# 📝 mytodo-app
 
 A fully functional Todo List application built using React.  
 This project implements authentication, global state management using Context API, and persistent data storage using LocalStorage.
@@ -30,7 +30,7 @@ This project implements authentication, global state management using Context AP
 - Context API
 - LocalStorage
 - Vite
-- CSS / Tailwind (whichever you used)
+- Tailwind
 - Deployed on Vercel
 
 ---
@@ -54,7 +54,7 @@ src/
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/mytodo-app.git
+git clone https://github.com/MuqtasidBhatti/mytodo-app.git
 ```
 
 Install dependencies:
@@ -73,12 +73,11 @@ npm run dev
 
 ## 📸 Screenshots
 
-(Add 2–3 screenshots here)
+### 🔐 Login Page
+![Login Page](./screenshots/login.png)
 
-Example:
-
-![Login Page](./public/screenshots/login.png)
-![Dashboard](./public/screenshots/dashboard.png)
+### 📋 Dashboard
+![Dashboard](./screenshots/dashboard.png)
 
 ---
 
@@ -96,4 +95,5 @@ Example:
 
 Muqtasid Bhatti  
 Frontend Developer  
+Karachi, Pakistan 
 Open to Opportunities 🚀
