@@ -93,7 +93,8 @@ npm run dev
 
 ## 👨‍💻 Author
 
-Muqtasid Bhatti  
-Frontend Developer  
-Karachi, Pakistan 
-Open to Opportunities 🚀
+**Muqtasid Bhatti**  
+Frontend Developer | React.js | Tailwind CSS | Open to Opportunities
+
+GitHub: https://github.com/MuqtasidBhatti  
+LinkedIn: https://www.linkedin.com/in/muqtasid-bhatti-230525384/
